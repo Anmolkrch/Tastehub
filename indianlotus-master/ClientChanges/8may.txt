@@ -1,0 +1,10 @@
+1.Email Change ->pending from client 
+2.How we can change specials  (Done)
+3.How can we add special like we have free delivery (Done)
+4.Put delivery charges 0f 5$ with order
+5.Address change for user
+6.Add/delet button on order (Done)
+7.when click on menu the all (Done)
+  amd if click on on single dish (Done)
+8.order is paid or not /cod-card (Done)
+9.add naans - added category  (Done)

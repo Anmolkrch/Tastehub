@@ -1,0 +1,68 @@
+8546,Belfast,3.04
+7630,Kaiapoi,4.59
+7644,Kaiapoi,4.31
+7670,Coutts Island,4.95
+8083,Ouruhia,4.51
+7692,Wetheral,6.47
+7691,Flaxton,7.32
+8542,Papanui,8.89
+8842,North New Brighton,8.25
+8052,Papanui,9.11
+8543,Harewood,9.06
+8640,Dallington,9.69
+8014,Saint Albans,10.59
+8051,Harewood,10.94
+
+8053,Burnside,10.57
+8061,Aranui,10.65
+8143,Saint Albans,10.38
+8146,Saint Albans,10.46
+8148,Avonside,10.82
+8545,Burnside,10.04
+7610,Woodend,11.19
+7641,Woodend,11.00
+
+8144,Christchurch,11.60
+8540,Fendalton,11.83
+8544,Harewood,11.61
+8641,New Brighton,11.64
+8643,Aranui,11.62
+8011,Christchurch,12.66
+8041,Fendalton,12.56
+8140,Christchurch,12.46
+8141,Christchurch,12.04
+
+8142,Christchurch,12.77
+8147,Linwood,12.22
+8440,Riccarton,12.73
+8444,Ilam,12.34
+8642,Bromley,12.67
+7400,Bells,13.35
+7440,Bells,13.69
+8145,Opawa,13.36
+8240,Sydenham,13.90
+8442,Upper Riccarton,13.80
+
+7473,Waikuku,14.21
+8062,Bromley,14.30
+8149,Spreydon,14.22
+8241,Woolston,14.67
+8243,Spreydon,14.28
+7448,Waikuku Beach,15.87
+8023,Hillsborough,15.15
+8024,Spreydon,15.56
+
+8242,Beckenham,15.30
+8244,Somerfield,15.37
+8246,Hillsborough,15.30
+8247,Mount Pleasant,15.84
+8443,Wigram,15.07
+7402,Waikuku Beach,16.17
+8042,Hei Hei,16.06
+8441,Hornby,16.86
+8022,Cashmere Hills,18.13
+8245,Halswell,18.92
+8840,Sumner,18.79
+7445,Sefton,19.18
+8025,Halswell,19.48
+8081,Sumner,19.39
