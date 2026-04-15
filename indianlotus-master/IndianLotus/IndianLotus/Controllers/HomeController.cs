@@ -469,10 +469,10 @@ namespace ResturantBooking.Controllers
             mailBody = mailBody.Replace("$UserEmail", user.Email);
             mailBody = mailBody.Replace("$PinCode", user.UserDetail.CurZipCode);
             mailBody = mailBody.Replace("$PaymentMode", PaymentMode);
-            LogWriter.LogWrite("Email Sending start", filePath);
+            //LogWriter.LogWrite("Email Sending start", filePath);
             EmailNotification.SendMailConfirmation(user.Email,
                 UserAuthenticate.UserName, "Order Confirmation", mailBody, filePath);
-            LogWriter.LogWrite("Email Sending End", filePath);
+            //LogWriter.LogWrite("Email Sending End", filePath);
         }
     }
 }

@@ -1,6 +1,4 @@
-﻿using DemoModel.ViewModel;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.ComponentModel.DataAnnotations;
 using System.Web.Mvc;
 
@@ -11,7 +9,7 @@ namespace DemoModel.ViewModel
         public long Id { get; set; }
         public long UserTypeId { get; set; }
         [Required(ErrorMessage = "First Name is required")]
-        [System.ComponentModel.DataAnnotations.Display(Name = "First Name *")]
+        [Display(Name = "First Name *")]
         public string FirstName { get; set; }
         [Required(ErrorMessage = "Last Name is required")]
         [Display(Name = "Last Name *")]

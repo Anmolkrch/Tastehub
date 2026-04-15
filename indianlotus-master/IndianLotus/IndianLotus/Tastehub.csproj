@@ -11,8 +11,8 @@
     <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>IndianLotus</RootNamespace>
-    <AssemblyName>IndianLotus</AssemblyName>
+    <RootNamespace>Tastehub</RootNamespace>
+    <AssemblyName>Tastehub</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
     <UseIISExpress>true</UseIISExpress>
@@ -1073,6 +1073,7 @@
     <Content Include="Assets\js\smoothbox.jquery2.js" />
     <Content Include="Assets\js\SmoothScroll.min.js" />
     <Content Include="Assets\js\wickedpicker.js" />
+    <Content Include="Assets\Log.txt" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -1707,24 +1708,34 @@
     <Content Include="Views\Home\ItemDetail.cshtml" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
+    <Content Include="Web - Copy.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web - Copy.Debug.config">
+      <DependentUpon>Web - Copy.config</DependentUpon>
+    </Content>
+    <Content Include="Web - Copy.Release.config">
+      <DependentUpon>Web - Copy.config</DependentUpon>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Assets\images\UploadImage\" />
+    <Folder Include="Assets\txt\" />
     <Folder Include="Views\Stripe\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DemoModel\DemoModel.csproj">
+    <ProjectReference Include="..\DemoModel\Tastehub.Model.csproj">
       <Project>{f69b9d13-9360-4815-aa6c-d42e1e38df28}</Project>
-      <Name>DemoModel</Name>
+      <Name>Tastehub.Model</Name>
     </ProjectReference>
-    <ProjectReference Include="..\DemoService\DemoService.csproj">
+    <ProjectReference Include="..\DemoService\Tastehub.Service.csproj">
       <Project>{f9ecb5ff-5f51-4934-b717-49873879c369}</Project>
-      <Name>DemoService</Name>
+      <Name>Tastehub.Service</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Utility\Utility.csproj">
+    <ProjectReference Include="..\Utility\Tastehub.Utility.csproj">
       <Project>{55EA5037-AE36-4F87-A2BD-475980734654}</Project>
-      <Name>Utility</Name>
+      <Name>Tastehub.Utility</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
