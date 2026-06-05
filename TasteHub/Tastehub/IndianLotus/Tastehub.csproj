@@ -1015,7 +1015,6 @@
     <Content Include="Assets\images\g6.jpg" />
     <Content Include="Assets\images\g7.jpg" />
     <Content Include="Assets\images\g8.jpg" />
-    <Content Include="Assets\images\Gallery\b1.jpg" />
     <Content Include="Assets\images\Gallery\burrito.jpg" />
     <Content Include="Assets\images\Gallery\d1.jpg" />
     <Content Include="Assets\images\Gallery\d2.jpg" />
@@ -1144,7 +1143,6 @@
     <Content Include="AdminAsset\assets\libs\jquery-asGradient\README.md" />
     <Content Include="AdminAsset\assets\libs\jquery-minicolors\component.json" />
     <Content Include="AdminAsset\assets\libs\jquery-steps\build\jquery.steps-1.1.0.zip" />
-    <Content Include="AdminAsset\assets\libs\jquery-steps\build\jQuery.Steps.1.1.0.nupkg" />
     <Content Include="AdminAsset\assets\libs\jquery-steps\nuget\jQuery.Steps.nuspec" />
     <Content Include="AdminAsset\assets\libs\jquery-steps\steps.jquery.json" />
     <Content Include="AdminAsset\dist\css\icons\font-awesome\less\fa-brands.less" />
