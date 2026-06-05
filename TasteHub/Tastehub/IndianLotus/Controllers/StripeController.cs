@@ -1,15 +1,13 @@
-﻿using Tastehub.Service.UserService;
-using DemoModel.ViewModel;
+﻿using DemoModel.ViewModel;
 using DemoService.Service.ItemService;
 using DemoService.User;
-using Tastehub.Web.Helper;
 using Stripe;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
+using Tastehub.Service.UserService;
+using Tastehub.Web.Helper;
 using Utility;
 
 namespace IndianLotus.Controllers

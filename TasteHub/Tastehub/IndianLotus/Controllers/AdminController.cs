@@ -1,15 +1,14 @@
-﻿using Tastehub.Web.Helper;
-using DemoModel.ViewModel;
+﻿using DemoModel.ViewModel;
 using DemoService.MenuNamespace;
 using PagedList;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using System.Configuration;
 using Tastehub.Service.BookingService;
-using static Utility.Enums;
+using Tastehub.Web.Helper;
 using Utility;
 
 namespace Tastehub.Controllers

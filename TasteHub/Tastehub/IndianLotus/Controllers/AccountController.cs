@@ -1,12 +1,9 @@
-﻿using Tastehub.Service.UserService;
+﻿using DemoModel.ViewModel;
+using System;
+using System.Web.Mvc;
+using Tastehub.Service.UserService;
 using Tastehub.Utility.Helper;
 using Tastehub.Web.Helper;
-using DemoModel.ViewModel;
-using System;
-using System.Linq;
-using System.Threading.Tasks;
-using System.Web;
-using System.Web.Mvc;
 using static Utility.Enums;
 
 namespace Tastehub.Controllers
@@ -17,7 +14,6 @@ namespace Tastehub.Controllers
 
         UserService _userService = new UserService();
 
-   
         // GET: /Account/Login
         [AllowAnonymous]
         public ActionResult Login(string returnUrl)

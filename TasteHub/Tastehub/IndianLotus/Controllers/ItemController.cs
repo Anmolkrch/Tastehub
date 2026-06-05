@@ -1,14 +1,12 @@
 ﻿using DemoModel.ViewModel;
 using DemoService.Service.ItemService;
 using PagedList;
-using Tastehub.Web.Helper;
 using System;
-using System.Collections.Generic;
 using System.Configuration;
 using System.IO;
-using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using Tastehub.Web.Helper;
 using Utility;
 
 namespace Tastehub.Controllers

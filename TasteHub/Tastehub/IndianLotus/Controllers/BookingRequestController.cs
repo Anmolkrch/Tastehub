@@ -1,11 +1,7 @@
-﻿using Tastehub.Service.BookingService;
-using PagedList;
-using Tastehub.Web.Helper;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using PagedList;
 using System.Web.Mvc;
+using Tastehub.Service.BookingService;
+using Tastehub.Web.Helper;
 using Utility;
 
 namespace Tastehub.Controllers

@@ -1,14 +1,8 @@
-﻿using Tastehub.Service.UserService;
-using Newtonsoft.Json;
-using PagedList;
-using Tastehub.Utility.Helper;
-using Tastehub.Web.Helper;
+﻿using PagedList;
 using System;
-using System.Collections;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
 using System.Web.Mvc;
+using Tastehub.Service.UserService;
+using Tastehub.Web.Helper;
 using Utility;
 
 namespace Tastehub.Controllers

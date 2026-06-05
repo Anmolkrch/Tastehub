@@ -1,6 +1,4 @@
-﻿using Tastehub.Service.BookingService;
-using Tastehub.Service.UserService;
-using DemoModel.ViewModel;
+﻿using DemoModel.ViewModel;
 using DemoService.MenuNamespace;
 using DemoService.Service.ItemService;
 using DemoService.User;
@@ -11,6 +9,8 @@ using System.Collections.Generic;
 using System.Configuration;
 using System.Linq;
 using System.Web.Mvc;
+using Tastehub.Service.BookingService;
+using Tastehub.Service.UserService;
 using Tastehub.Utility.Helper;
 using Tastehub.Web.Helper;
 using Utility;

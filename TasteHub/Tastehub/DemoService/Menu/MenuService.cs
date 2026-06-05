@@ -1,11 +1,9 @@
-﻿using System;
+﻿using Demo.Core.EntityModel;
+using DemoModel.ViewModel;
+using ExpressMapper;
+using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Demo.Core.EntityModel;
-using ExpressMapper;
-using DemoModel.ViewModel;
 
 namespace DemoService.MenuNamespace
 {
