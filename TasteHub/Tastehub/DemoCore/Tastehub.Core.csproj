@@ -7,8 +7,8 @@
     <ProjectGuid>{267AAC19-34BE-4E2D-A821-177B72BF01DB}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Demo.Core</RootNamespace>
-    <AssemblyName>Demo.Core</AssemblyName>
+    <RootNamespace>Tastehub.Core</RootNamespace>
+    <AssemblyName>Tastehub.Core</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <SccProjectName>SAK</SccProjectName>

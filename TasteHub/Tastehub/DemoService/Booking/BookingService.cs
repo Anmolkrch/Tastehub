@@ -1,9 +1,9 @@
-﻿using Demo.Core.EntityModel;
-using TastehubModel.ViewModel;
+﻿using TastehubModel.ViewModel;
 using ExpressMapper;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using Tastehub.Core.EntityModel;
 
 namespace Tastehub.Service.BookingService
 {

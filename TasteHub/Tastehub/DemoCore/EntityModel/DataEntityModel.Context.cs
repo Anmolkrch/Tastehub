@@ -7,7 +7,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Demo.Core.EntityModel
+namespace Tastehub.Core.EntityModel
 {
     using System;
     using System.Data.Entity;

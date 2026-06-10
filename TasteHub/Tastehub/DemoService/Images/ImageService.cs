@@ -1,4 +1,4 @@
-﻿using Demo.Core.EntityModel;
+﻿using Tastehub.Core.EntityModel;
 using TastehubModel.ViewModel;
 using ExpressMapper;
 using System;
