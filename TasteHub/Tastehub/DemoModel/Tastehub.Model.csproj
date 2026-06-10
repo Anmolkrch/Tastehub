@@ -75,6 +75,7 @@
     <Compile Include="ViewModel\BookingReqestViewModel.cs" />
     <Compile Include="ViewModel\CityViewModel.cs" />
     <Compile Include="ViewModel\ContactViewModel.cs" />
+    <Compile Include="ViewModel\ImageViewModel.cs" />
     <Compile Include="ViewModel\LoginViewModel.cs" />
     <Compile Include="ViewModel\GalleryViewModel.cs" />
     <Compile Include="ViewModel\PaymentViewModel.cs" />

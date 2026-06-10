@@ -89,6 +89,12 @@
     <Compile Include="EntityModel\GetPlacedOrders_Result.cs">
       <DependentUpon>DataEntityModel.tt</DependentUpon>
     </Compile>
+    <Compile Include="EntityModel\Image.cs">
+      <DependentUpon>DataEntityModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="EntityModel\ImageCategory.cs">
+      <DependentUpon>DataEntityModel.tt</DependentUpon>
+    </Compile>
     <Compile Include="EntityModel\mtbAlbum.cs">
       <DependentUpon>DataEntityModel.tt</DependentUpon>
     </Compile>

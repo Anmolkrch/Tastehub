@@ -25,5 +25,8 @@ namespace Demo.Core.EntityModel
         public Nullable<System.DateTime> ModifiedOn { get; set; }
         public bool IsActive { get; set; }
         public bool IsDeleted { get; set; }
+        public string OrderMode { get; set; }
+        public Nullable<decimal> DeliveryCharge { get; set; }
+        public Nullable<decimal> WithoutDelvery { get; set; }
     }
 }

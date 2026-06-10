@@ -43,6 +43,8 @@ namespace Demo.Core.EntityModel
         public virtual DbSet<UserType> UserTypes { get; set; }
         public virtual DbSet<mtbCity> mtbCities { get; set; }
         public virtual DbSet<Tbl_PaymentDetails> Tbl_PaymentDetails { get; set; }
+        public virtual DbSet<ImageCategory> ImageCategories { get; set; }
+        public virtual DbSet<Image> Images { get; set; }
     
         public virtual ObjectResult<GetGalleryItem_Result> GetGalleryItem(Nullable<long> id)
         {

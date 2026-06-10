@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'E:\Project\GitHub\IndianLotus\IndianLotus\DemoCore\EntityModel\DataEntityModel.edmx'. 
+﻿// T4 code generation is enabled for model 'C:\Client\Tastehub\TasteHub\Tastehub\DemoCore\EntityModel\DataEntityModel.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.

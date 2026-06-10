@@ -22,6 +22,7 @@ namespace Demo.Core.EntityModel
         public Nullable<System.DateTime> UpdatedOn { get; set; }
         public Nullable<int> ShippingDetailId { get; set; }
         public string Spices { get; set; }
+        public string Flavour { get; set; }
     
         public virtual Tbl_CartStatus Tbl_CartStatus { get; set; }
         public virtual Tbl_Product Tbl_Product { get; set; }

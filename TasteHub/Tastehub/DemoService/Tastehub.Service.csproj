@@ -52,6 +52,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Booking\BookingService.cs" />
+    <Compile Include="Images\MenuService.cs" />
     <Compile Include="Item\ItemService.cs" />
     <Compile Include="Menu\MenuService.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

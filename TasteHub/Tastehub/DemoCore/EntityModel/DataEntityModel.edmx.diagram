@@ -27,6 +27,9 @@
         <AssociationConnector Association="indianlotusModel.FK__UserTypeId__UserType__Id" ManuallyRouted="false" />
         <EntityTypeShape EntityType="indianlotusModel.mtbCity" Width="1.5" PointX="7.375" PointY="11.75" />
         <EntityTypeShape EntityType="indianlotusModel.Tbl_PaymentDetails" Width="1.5" PointX="9.375" PointY="11.75" />
+        <EntityTypeShape EntityType="indianlotusModel.ImageCategory" Width="1.5" PointX="11.375" PointY="12.5" />
+        <EntityTypeShape EntityType="indianlotusModel.Image" Width="1.5" PointX="13.625" PointY="12" />
+        <AssociationConnector Association="indianlotusModel.FK__Images__Category__160F4887" />
       </Diagram>
     </edmx:Diagrams>
   </edmx:Designer>
