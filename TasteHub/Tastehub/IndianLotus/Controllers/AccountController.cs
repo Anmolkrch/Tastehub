@@ -8,7 +8,7 @@ using static Utility.Enums;
 
 namespace Tastehub.Controllers
 {
-    //[HandleError]
+    [HandleError]
     public class AccountController : Controller
     {
 
@@ -73,10 +73,6 @@ namespace Tastehub.Controllers
                         // ViewBag.ErrorMsg = "Please check your username and password! ";
                     }
                 }
-                //catch (CustomException customException)
-                //{
-                //    ModelState.AddModelError("", customException.Message);
-                //}
                 catch (Exception ex)
                 {
                     ModelState.AddModelError("", "Invalid login attempt");

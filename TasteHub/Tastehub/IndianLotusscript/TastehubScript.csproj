@@ -7,8 +7,8 @@
     <ProjectGuid>{1F97AE89-F964-4E00-A18E-825E3B0A1727}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>IndianLotusscript</RootNamespace>
-    <AssemblyName>IndianLotusscript</AssemblyName>
+    <RootNamespace>TastehubScript</RootNamespace>
+    <AssemblyName>TastehubScript</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />

@@ -7,8 +7,8 @@
     <ProjectGuid>{55EA5037-AE36-4F87-A2BD-475980734654}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Utility</RootNamespace>
-    <AssemblyName>Utility</AssemblyName>
+    <RootNamespace>Tastehub.Utility</RootNamespace>
+    <AssemblyName>Tastehub.Utility</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />

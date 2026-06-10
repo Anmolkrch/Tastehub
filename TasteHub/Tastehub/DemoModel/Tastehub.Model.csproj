@@ -7,8 +7,8 @@
     <ProjectGuid>{F69B9D13-9360-4815-AA6C-D42E1E38DF28}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>DemoModel</RootNamespace>
-    <AssemblyName>DemoModel</AssemblyName>
+    <RootNamespace>Tastehub.Model</RootNamespace>
+    <AssemblyName>Tastehub.Model</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />

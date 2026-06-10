@@ -7,8 +7,8 @@
     <ProjectGuid>{F9ECB5FF-5F51-4934-B717-49873879C369}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>TastehubService</RootNamespace>
-    <AssemblyName>TastehubService</AssemblyName>
+    <RootNamespace>Tastehub.Service</RootNamespace>
+    <AssemblyName>Tastehub.Service</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <TargetFrameworkProfile />
