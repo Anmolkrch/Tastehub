@@ -60,11 +60,11 @@
     <Compile Include="User\UserService.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DemoCore\Tastehub.Core.csproj">
+    <ProjectReference Include="..\TastehubCore\Tastehub.Core.csproj">
       <Project>{267aac19-34be-4e2d-a821-177b72bf01db}</Project>
       <Name>Tastehub.Core</Name>
     </ProjectReference>
-    <ProjectReference Include="..\DemoModel\Tastehub.Model.csproj">
+    <ProjectReference Include="..\TastehubModel\Tastehub.Model.csproj">
       <Project>{f69b9d13-9360-4815-aa6c-d42e1e38df28}</Project>
       <Name>Tastehub.Model</Name>
     </ProjectReference>

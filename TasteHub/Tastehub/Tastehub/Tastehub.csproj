@@ -1723,11 +1723,11 @@
     <Folder Include="Views\Stripe\" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\DemoModel\Tastehub.Model.csproj">
+    <ProjectReference Include="..\TastehubModel\Tastehub.Model.csproj">
       <Project>{f69b9d13-9360-4815-aa6c-d42e1e38df28}</Project>
       <Name>Tastehub.Model</Name>
     </ProjectReference>
-    <ProjectReference Include="..\DemoService\Tastehub.Service.csproj">
+    <ProjectReference Include="..\TastehubService\Tastehub.Service.csproj">
       <Project>{f9ecb5ff-5f51-4934-b717-49873879c369}</Project>
       <Name>Tastehub.Service</Name>
     </ProjectReference>
