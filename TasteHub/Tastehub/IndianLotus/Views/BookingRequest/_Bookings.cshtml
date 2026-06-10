@@ -1,4 +1,4 @@
-﻿@model PagedList.IPagedList<DemoModel.ViewModel.BookingReqestViewModel>
+﻿@model PagedList.IPagedList<TastehubModel.ViewModel.BookingReqestViewModel>
 @using PagedList.Mvc;
 @{
     Layout = null;
@@ -18,7 +18,7 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (DemoModel.ViewModel.BookingReqestViewModel entity in Model)
+        @foreach (TastehubModel.ViewModel.BookingReqestViewModel entity in Model)
         {
         <tr>
             <td>@entity.Id</td>

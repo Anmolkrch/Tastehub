@@ -1,6 +1,6 @@
 ﻿using Demo.Core.EntityModel;
-using DemoModel.CartModel;
-using DemoModel.ViewModel;
+using TastehubModel.CartModel;
+using TastehubModel.ViewModel;
 using ExpressMapper;
 using System;
 using System.Collections.Generic;
@@ -9,7 +9,7 @@ using System.Data.Entity;
 using System.Linq;
 using static Utility.Enums;
 
-namespace DemoService.Service.ItemService
+namespace TastehubService.Service.ItemService
 {
     public class ItemService
     {

@@ -1,4 +1,4 @@
-﻿@model PagedList.IPagedList<DemoModel.ViewModel.SubMainMenuViewModel>
+﻿@model PagedList.IPagedList<TastehubModel.ViewModel.SubMainMenuViewModel>
 @using PagedList.Mvc;
 @{
     Layout = null;
@@ -17,7 +17,7 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (DemoModel.ViewModel.SubMainMenuViewModel entity in Model)
+        @foreach (TastehubModel.ViewModel.SubMainMenuViewModel entity in Model)
         {
         <tr>
             <td>@entity.MenuName</td>

@@ -1,5 +1,5 @@
 ﻿using Demo.Core.EntityModel;
-using DemoModel.ViewModel;
+using TastehubModel.ViewModel;
 using ExpressMapper;
 using System;
 using System.Collections.Generic;
@@ -7,7 +7,7 @@ using System.Data.Entity;
 using System.Linq;
 using static Utility.Enums;
 
-namespace DemoService.User
+namespace TastehubService.User
 {
     public class HomeService
     {

@@ -1,5 +1,5 @@
 ﻿using Demo.Core.EntityModel;
-using DemoModel.ViewModel;
+using TastehubModel.ViewModel;
 using ExpressMapper;
 using System;
 using System.Collections.Generic;

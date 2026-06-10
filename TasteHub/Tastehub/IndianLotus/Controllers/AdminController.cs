@@ -1,5 +1,5 @@
-﻿using DemoModel.ViewModel;
-using DemoService.MenuNamespace;
+﻿using TastehubModel.ViewModel;
+using TastehubService.MenuNamespace;
 using PagedList;
 using System;
 using System.Collections.Generic;

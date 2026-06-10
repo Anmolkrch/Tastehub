@@ -1,4 +1,4 @@
-﻿namespace DemoModel.ViewModel
+﻿namespace TastehubModel.ViewModel
 {
     public class CityViewModel
     {

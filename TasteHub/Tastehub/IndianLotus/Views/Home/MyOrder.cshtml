@@ -1,4 +1,4 @@
-﻿@model List<DemoModel.ViewModel.CartViewModel>
+﻿@model List<TastehubModel.ViewModel.CartViewModel>
 @{
     ViewBag.Title = "My Orders";
     Layout = "~/Views/Shared/_HomeLayout.cshtml";
@@ -15,7 +15,7 @@
                 <div id="myTabContent" class="tab-content">
                     <div role="tabpanel" class="tab-pane fade in active" id="four" aria-labelledby="four-tab">
                         <div class="tab-info">
-                            @foreach (DemoModel.ViewModel.CartViewModel entity in Model)
+                            @foreach (TastehubModel.ViewModel.CartViewModel entity in Model)
                             {
                                 <div class="menu-grids menu-grids-mdl">
                                     <div class="menu-left" style="width: 50%;">

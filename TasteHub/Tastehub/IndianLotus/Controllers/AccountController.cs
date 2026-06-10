@@ -1,4 +1,4 @@
-﻿using DemoModel.ViewModel;
+﻿using TastehubModel.ViewModel;
 using System;
 using System.Web.Mvc;
 using Tastehub.Service.UserService;

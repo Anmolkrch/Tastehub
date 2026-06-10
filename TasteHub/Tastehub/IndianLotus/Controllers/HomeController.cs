@@ -1,7 +1,7 @@
-﻿using DemoModel.ViewModel;
-using DemoService.MenuNamespace;
-using DemoService.Service.ItemService;
-using DemoService.User;
+﻿using TastehubModel.ViewModel;
+using TastehubService.MenuNamespace;
+using TastehubService.Service.ItemService;
+using TastehubService.User;
 using IndianLotus.Models;
 using PayPal.Api;
 using System;

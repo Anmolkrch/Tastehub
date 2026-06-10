@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DemoModel.CartModel
+namespace TastehubModel.CartModel
 {
     public class PlacedOrderViewModel
     {

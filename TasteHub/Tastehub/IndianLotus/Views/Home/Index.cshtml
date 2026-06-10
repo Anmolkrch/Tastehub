@@ -1,11 +1,11 @@
-﻿@model List<DemoModel.ViewModel.GalleryViewModel>
+﻿@model List<TastehubModel.ViewModel.GalleryViewModel>
 @using Tastehub.Web.Helper;
 @{
     Layout = null;
 }
 @{
     ViewBag.Title = "Home Page";
-    List<DemoModel.ViewModel.ProductViewModel> product = (List<DemoModel.ViewModel.ProductViewModel>)ViewBag.AllItems;
+    List<TastehubModel.ViewModel.ProductViewModel> product = (List<TastehubModel.ViewModel.ProductViewModel>)ViewBag.AllItems;
 }
 <!DOCTYPE html>
 <html lang="en">
@@ -277,7 +277,7 @@
     <div class="specials">
         <!-- Owl-Carousel -->
         <div id="owl-demo" class="owl-carousel text-center">
-            @foreach (DemoModel.ViewModel.GalleryViewModel entity in Model)
+            @foreach (TastehubModel.ViewModel.GalleryViewModel entity in Model)
             {
                 <div class="item g1 popup-with-zoom-anim">
                     <img class="lazyOwl" src=@entity.GalleryPath alt="Veg Mores">

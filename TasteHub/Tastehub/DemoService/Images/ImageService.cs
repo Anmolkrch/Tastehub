@@ -1,11 +1,11 @@
 ﻿using Demo.Core.EntityModel;
-using DemoModel.ViewModel;
+using TastehubModel.ViewModel;
 using ExpressMapper;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 
-namespace DemoService.ImageService
+namespace TastehubService.ImageService
 {
     
    public  class ImageService
@@ -43,7 +43,7 @@ namespace DemoService.ImageService
 
             return entities;
         }
-        public bool SaveImageCategory(ImageCategoryViewModel objCategory)
+        public bool SaveImageCategory(ImageCategoryViewModel objCategory, long UserId)
         {
             bool status = false;
             try
@@ -69,7 +69,7 @@ namespace DemoService.ImageService
             return status;
         }
 
-        public bool UpdateImageCategory(ImageCategoryViewModel objCategory)
+        public bool UpdateImageCategory(ImageCategoryViewModel objCategory, long UserId)
         {
             bool status = false;
             try
@@ -95,7 +95,7 @@ namespace DemoService.ImageService
             }
             return status;
         }
-        public bool SaveImage(ImageViewModel objImage)
+        public bool SaveImage(ImageViewModel objImage, long UserId)
         {
             bool status = false;
             try
@@ -121,7 +121,7 @@ namespace DemoService.ImageService
             return status;
         }
 
-        public bool UpdateImage(ImageViewModel objImage)
+        public bool UpdateImage(ImageViewModel objImage, long UserId)
         {
             bool status = false;
             try
@@ -137,7 +137,7 @@ namespace DemoService.ImageService
                     image.CategoryID = objImage.CategoryID;
                     image.UploadedBy = objImage.UploadedBy;
                     image.ModifiedDate = DateTime.Now;
-                    image.ModifiedBy = "101";   // replace with actual user ID
+                    //image.ModifiedBy = UserId;   // replace with actual user ID
 
                     _Context.Configuration.ValidateOnSaveEnabled = false;
                     _Context.SaveChanges();

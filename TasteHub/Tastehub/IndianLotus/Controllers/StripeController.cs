@@ -1,6 +1,6 @@
-﻿using DemoModel.ViewModel;
-using DemoService.Service.ItemService;
-using DemoService.User;
+﻿using TastehubModel.ViewModel;
+using TastehubService.Service.ItemService;
+using TastehubService.User;
 using Stripe;
 using System;
 using System.Collections.Generic;

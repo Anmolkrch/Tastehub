@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace DemoModel.ViewModel
+namespace TastehubModel.ViewModel
 {
    public class ShippingDetailsViewModel
     {

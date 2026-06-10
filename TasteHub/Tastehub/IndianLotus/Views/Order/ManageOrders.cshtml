@@ -1,9 +1,9 @@
-﻿@model PagedList.IPagedList<DemoModel.CartModel.PlacedOrderViewModel>
+﻿@model PagedList.IPagedList<TastehubModel.CartModel.PlacedOrderViewModel>
 @using PagedList.Mvc;
 @{
     ViewBag.Title = "Manage Order";
     Layout = "~/Views/Shared/_AdminLayout.cshtml";
-    List<DemoModel.CartModel.OrderDetailViewModel> OrderDet = new List<DemoModel.CartModel.OrderDetailViewModel>();
+    List<TastehubModel.CartModel.OrderDetailViewModel> OrderDet = new List<TastehubModel.CartModel.OrderDetailViewModel>();
 }
 <link href="~/AdminAsset/assets/libs/datatables.net-bs4/css/dataTables.bootstrap4.css" rel="stylesheet">
 <div class="page-wrapper">

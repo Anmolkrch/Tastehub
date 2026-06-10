@@ -1,4 +1,4 @@
-﻿@model PagedList.IPagedList<DemoModel.ViewModel.UserViewModel>
+﻿@model PagedList.IPagedList<TastehubModel.ViewModel.UserViewModel>
 @using PagedList.Mvc;
 @{
     Layout = null;
@@ -18,7 +18,7 @@
         </tr>
     </thead>
     <tbody>
-        @foreach (DemoModel.ViewModel.UserViewModel entity in Model)
+        @foreach (TastehubModel.ViewModel.UserViewModel entity in Model)
         {
         <tr>
             <td>@entity.Id</td>

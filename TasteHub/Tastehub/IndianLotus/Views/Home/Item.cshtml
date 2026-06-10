@@ -1,4 +1,4 @@
-﻿@model List<DemoModel.ViewModel.ProductViewModel>
+﻿@model List<TastehubModel.ViewModel.ProductViewModel>
 @using Tastehub.Utility.Helper;
 @using System.Collections;
 @using Newtonsoft.Json;
@@ -59,7 +59,7 @@
         </div>
         <div class="team-row-agileinfo" id="ct">
             <input type="hidden" id="hdnUserId" value="@LogId" />
-            @foreach (DemoModel.ViewModel.ProductViewModel entity in Model)
+            @foreach (TastehubModel.ViewModel.ProductViewModel entity in Model)
             {
                 <div class="col-md-3 col-sm-6 col-xs-6 team-grids @entity.CategoryId">
                     <div class="thumbnail team-agileits">

@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace DemoModel.ViewModel
+namespace TastehubModel.ViewModel
 {
    public class GalleryViewModel
     {

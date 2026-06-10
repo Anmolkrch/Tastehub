@@ -2,7 +2,7 @@
 using System.ComponentModel.DataAnnotations;
 using System.Web.Mvc;
 
-namespace DemoModel.ViewModel
+namespace TastehubModel.ViewModel
 {
     public class UserViewModel
     {

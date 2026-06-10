@@ -1,5 +1,5 @@
-﻿using DemoModel.ViewModel;
-using DemoService.Service.ItemService;
+﻿using TastehubModel.ViewModel;
+using TastehubService.Service.ItemService;
 using PagedList;
 using System;
 using System.Configuration;

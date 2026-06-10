@@ -1,4 +1,4 @@
-﻿using DemoService.Service.ItemService;
+﻿using TastehubService.Service.ItemService;
 using PagedList;
 using System.Web.Mvc;
 
