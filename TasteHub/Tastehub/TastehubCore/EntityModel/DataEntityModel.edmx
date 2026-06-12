@@ -48,8 +48,8 @@
           <Property Name="IsActive" Type="bit" Nullable="false" />
           <Property Name="CreatedDate" Type="datetime" Nullable="false" />
           <Property Name="ModifiedDate" Type="datetime" />
-          <Property Name="CreatedBy" Type="nvarchar" MaxLength="100" />
-          <Property Name="ModifiedBy" Type="nvarchar" MaxLength="100" />
+          <Property Name="CreatedBy" Type="bigint" />
+          <Property Name="ModifiedBy" Type="bigint" />
         </EntityType>
         <EntityType Name="Images">
           <Key>
@@ -66,8 +66,8 @@
           <Property Name="IsActive" Type="bit" Nullable="false" />
           <Property Name="CreatedDate" Type="datetime" Nullable="false" />
           <Property Name="ModifiedDate" Type="datetime" />
-          <Property Name="CreatedBy" Type="nvarchar" MaxLength="100" />
-          <Property Name="ModifiedBy" Type="nvarchar" MaxLength="100" />
+          <Property Name="CreatedBy" Type="bigint" />
+          <Property Name="ModifiedBy" Type="bigint" />
         </EntityType>
         <EntityType Name="mtbAlbum">
           <Key>
@@ -1457,7 +1457,7 @@
           <FunctionImport Name="GetPaidOrderDetail" ReturnType="Collection(indianlotusModel.GetPaidOrderDetail_Result)" />
           <EntitySet Name="ImageCategories" EntityType="indianlotusModel.ImageCategory" />
           <EntitySet Name="Images" EntityType="indianlotusModel.Image" />
-          <AssociationSet Name="FK__Images__Category__160F4887" Association="indianlotusModel.FK__Images__Category__160F4887">
+          <AssociationSet Name="FK__Images__Category__1F98B2C1" Association="indianlotusModel.FK__Images__Category__1F98B2C1">
             <End Role="ImageCategory" EntitySet="ImageCategories" />
             <End Role="Image" EntitySet="Images" />
           </AssociationSet>
@@ -1555,12 +1555,12 @@
           <Property Name="CategoryID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="CategoryName" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
           <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <NavigationProperty Name="Images" Relationship="indianlotusModel.FK__Images__Category__160F4887" FromRole="ImageCategory" ToRole="Image" />
           <Property Name="IsActive" Type="Boolean" Nullable="false" />
           <Property Name="CreatedDate" Type="DateTime" Nullable="false" Precision="3" />
           <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
-          <Property Name="CreatedBy" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
-          <Property Name="ModifiedBy" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="CreatedBy" Type="Int64" />
+          <Property Name="ModifiedBy" Type="Int64" />
+          <NavigationProperty Name="Images" Relationship="indianlotusModel.FK__Images__Category__1F98B2C1" FromRole="ImageCategory" ToRole="Image" />
         </EntityType>
         <EntityType Name="Image">
           <Key>
@@ -1574,14 +1574,14 @@
           <Property Name="CategoryID" Type="Int32" />
           <Property Name="UploadDate" Type="DateTime" Precision="3" />
           <Property Name="UploadedBy" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
-          <NavigationProperty Name="ImageCategory" Relationship="indianlotusModel.FK__Images__Category__160F4887" FromRole="Image" ToRole="ImageCategory" />
           <Property Name="IsActive" Type="Boolean" Nullable="false" />
           <Property Name="CreatedDate" Type="DateTime" Nullable="false" Precision="3" />
           <Property Name="ModifiedDate" Type="DateTime" Precision="3" />
-          <Property Name="CreatedBy" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
-          <Property Name="ModifiedBy" Type="String" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="CreatedBy" Type="Int64" />
+          <Property Name="ModifiedBy" Type="Int64" />
+          <NavigationProperty Name="ImageCategory" Relationship="indianlotusModel.FK__Images__Category__1F98B2C1" FromRole="Image" ToRole="ImageCategory" />
         </EntityType>
-        <Association Name="FK__Images__Category__160F4887">
+        <Association Name="FK__Images__Category__1F98B2C1">
           <End Type="indianlotusModel.ImageCategory" Role="ImageCategory" Multiplicity="0..1" />
           <End Type="indianlotusModel.Image" Role="Image" Multiplicity="*" />
           <ReferentialConstraint>

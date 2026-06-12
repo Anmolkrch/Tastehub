@@ -54,8 +54,8 @@ namespace TastehubService.ImageService
                 category.IsActive = true;
                 category.CreatedDate = DateTime.Now;
                 category.ModifiedDate = DateTime.Now;
-                category.CreatedBy = "101";   // replace with actual user ID
-                category.ModifiedBy = "101";
+                category.CreatedBy = UserId;   // replace with actual user ID
+                category.ModifiedBy = UserId;
 
                 _Context.ImageCategories.Add(category);
                 _Context.Configuration.ValidateOnSaveEnabled = true;
@@ -82,7 +82,7 @@ namespace TastehubService.ImageService
                     category.CategoryName = objCategory.CategoryName;
                     category.Description = objCategory.Description;
                     category.ModifiedDate = DateTime.Now;
-                    category.ModifiedBy = "101";   // replace with actual user ID
+                    category.ModifiedBy = UserId;   // replace with actual user ID
 
                     _Context.Configuration.ValidateOnSaveEnabled = false;
                     _Context.SaveChanges();
@@ -106,8 +106,8 @@ namespace TastehubService.ImageService
                 image.IsActive = true;
                 image.CreatedDate = DateTime.Now;
                 image.ModifiedDate = DateTime.Now;
-                image.CreatedBy = "101";   // replace with actual user ID
-                image.ModifiedBy = "101";
+                image.CreatedBy = UserId;   // replace with actual user ID
+                image.ModifiedBy = UserId;
 
                 _Context.Images.Add(image);
                 _Context.Configuration.ValidateOnSaveEnabled = true;
@@ -150,7 +150,7 @@ namespace TastehubService.ImageService
             }
             return status;
         }
-        public bool DeactivateImageCategory(int categoryId, string userId)
+        public bool DeactivateImageCategory(int categoryId, long userId)
         {
             bool status = false;
             try
@@ -196,7 +196,7 @@ namespace TastehubService.ImageService
             }
             return status;
         }
-        public bool DeactivateImage(int imageId, string userId)
+        public bool DeactivateImage(int imageId, long userId)
         {
             bool status = false;
             try
